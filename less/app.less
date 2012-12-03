@@ -1,0 +1,16 @@
+//
+// our manifest of style sheets for the application
+// loaded in specific order
+
+
+// css reset and core bootstrap styles
+@import url('../bootstrap/less/bootstrap.less');
+
+// update any bootstrap vars specific for the application itself and
+// add more non-bootstrap vars for our application as needed
+// these would be the defaults with no skin
+@import url('app-vars.less');
+
+// we would likely break up our application's css into modular files and load them here
+// these could also leverage bootstrap or new app LESS vars defined above as needed
+@import url('app-ui.less');

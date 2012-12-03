@@ -17,4 +17,4 @@ The only CSS file loaded in HTML is the skin. This in turn loads the main applic
 3. __app-ui.less__ - Currently a single file, but we would likely break up our application's css into modular files and load them here. These styles could also leverage bootstrap or new application LESS vars defined in app-vars.less.
 
 ## Experiment
-Try changing the button variable definitions in skin.less or just comment them out. If commented out, they will default to styles defined in app-vars.less, so try changing those too. If those are commented out as well, you get base bootstrap styles.
+Try changing the button variable definitions in __skin.less__ or just comment them out. If commented out, they will default to styles defined in __app-vars.less__, so try changing those too. If those button styles are commented out, you get base bootstrap styles.

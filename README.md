@@ -5,7 +5,7 @@
 This project is a proof of concept for creating a CSS framework using LESS and the @import statement to easily skin applications. I work on a number of projects that utilize a common base layout, but then need to be "skinned" for clients based on a brand's color palette. A brief explanation is below, but please see the source for more commenting.
 
 ## Markup
-The markup is a simple HTML5 document that has bootstrap button components as well as a simple <p> element. I am using a client-side JS version of the LESS compiler for this proof, but in real projects we prefer to compile or pre-compile server side for speed.
+The markup is a simple HTML5 document that has bootstrap button components as well as a simple paragraph element. I am using a client-side JS version of the LESS compiler for this proof, but in real projects we prefer to compile or pre-compile server side for speed.
 
 ## Styles
 The only CSS file loaded in HTML is the skin. This in turn loads the main application's styles and then updates any vars it needs in the process. The main application style sheet loads 3 style sheets:

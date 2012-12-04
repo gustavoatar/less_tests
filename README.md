@@ -1,4 +1,4 @@
-# LESS Import Architectures Proof of Concept
+# Skinned Applications Using Bootstrap and LESS Import Architectures: Proof of Concept
 
 ## Background
 
